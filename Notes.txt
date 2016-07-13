@@ -27,4 +27,20 @@ It supports two kinds of Java API: Cypher API and Native Java API to develop Jav
 3. Advantages :
 
 -It is very easy to represent connected data.
-- 
+- It is very easy and faster to retrieve/traversal/navigation of more Connected data.
+- Neo4j CQL is high level language
+- It does NOT require complex Joins to retrieve connected/related data as it is very easy to retrieve it's adjacent node or relationship details without Joins or Indexes.
+
+4. Limitations :
+
+AS of Neo4j 2.1.3 latest version, it has a limitation of supporting number of Nodes, Relationships and Properties.
+It does not support Sharding.
+
+5. Property Graph Data Model :
+
+- Represents data in Nodes, Relationships and Properties
+- Both Nodes and Relationships contains properties
+- Relationships connects nodes
+- Properties are key-value pairs
+- Nodes are represented using circle and Relationships are represented using arrow keys.
+- Relationships have directions: Unidirectional and Bidirectional.
