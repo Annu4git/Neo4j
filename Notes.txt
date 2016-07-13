@@ -6,9 +6,7 @@ No SQL
 - Written in Java.
 - CQL stands for Cypher Query Language
 Graph Databases are mainly useful to store more connected data.
-Nowadays, most of the Social Networking applications like Facebook, Google+, LinkedIn, Twitter, Yammer etc. and Video 
-
-hosting applications like Google YouTube, Flickr, Yahoo Video etc. are using more connected data.
+Nowadays, most of the Social Networking applications like Facebook, Google+, LinkedIn, Twitter, Yammer etc. and Video hosting applications like Google YouTube, Flickr, Yahoo Video etc. are using more connected data.
 
 2. Features :
 
@@ -44,3 +42,15 @@ It does not support Sharding.
 - Properties are key-value pairs
 - Nodes are represented using circle and Relationships are represented using arrow keys.
 - Relationships have directions: Unidirectional and Bidirectional.
+
+6. Neo4j CQL
+
+Cypher Query Language
+It is a declarative pattern-matching language
+It follows SQL like syntax.
+Neo4j CQL supports many clauses like WHERE, ORDER BY etc., to write very complex queries in very easy manner.
+Neo4j CQL supports some functions like String, Aggregation.In addition to them, it also supports some Relationship Functions.
+
+7. Commands :
+
+1) Create 
