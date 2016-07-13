@@ -1,2 +1,30 @@
-Hello
-Anurag
+1. Introduction
+- Neo4j is one of the popular graph databases.
+- It is open source.
+Schema free
+No SQL
+- Written in Java.
+- CQL stands for Cypher Query Language
+Graph Databases are mainly useful to store more connected data.
+Nowadays, most of the Social Networking applications like Facebook, Google+, LinkedIn, Twitter, Yammer etc. and Video 
+
+hosting applications like Google YouTube, Flickr, Yahoo Video etc. are using more connected data.
+
+2. Features :
+
+- SQL Like easy query language Neo4j CQL
+- It follows Property Graph Data Model
+- It supports Indexes by using Apache Lucence
+- It supports UNIQUE constraints
+UI : Neo4j Data Browser
+It supports full ACID(Atomicity, Consistency, Isolation and Durability) rules
+It uses Native graph storage with Native GPE(Graph Processing Engine)
+It supports exporting of query data to JSON and XLS format
+It provides REST API to be accessed by any Programming Language like Java, Spring,Scala etc.
+It provides Java Script to be accessed by any UI MVC Framework like Node JS.
+It supports two kinds of Java API: Cypher API and Native Java API to develop Java applications
+
+3. Advantages :
+
+-It is very easy to represent connected data.
+- 
