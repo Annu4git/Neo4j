@@ -53,4 +53,18 @@ Neo4j CQL supports some functions like String, Aggregation.In addition to them, 
 
 7. Commands :
 
-1) Create 
+7.1 Create 
+a) CQL Create command
+
+create (e : Employee)
+
+here, e is node name and Employee is label.
+Note :
+- Neo4j Database Server uses this <node-name> to store this node details in Database. As a Neo4j DBA or Developer, we cannot use it to access node details.
+- Neo4j Database Server creates a <label-name> as an alias to internal node name. As a Neo4j DBA or Developer, we should use this label name to access node details.
+
+b) CQL Create command with properties
+
+create (emp1 : Employee {name : "Anurag", empNo : 212})
+
+c) 
